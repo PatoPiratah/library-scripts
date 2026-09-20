@@ -1,7 +1,18 @@
 body{
     background-color: brown;
 }
-h1{
+header{
+    background: darkred;
+    color: whitesmoke;
+}
+footer{
+    background: darkmagenta;
+    color: whitesmoke;
+}
+header, footer{
+    display: flex;
+}
+h1, p{
     font-size: larger;
     text-shadow: 1px;
     color:bisque;
@@ -10,4 +21,7 @@ h3{
     font-size: larger;
     text-shadow: 1px;
     color: gray;
+}
+svg{
+    background-color: beige;
 }
